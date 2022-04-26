@@ -284,6 +284,45 @@ body {
     margin: 40px;
 }
 
+.container-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    height: 100px;
+    width: 500px;
+    border-radius: 20px;
+    
+    background-image: linear-gradient(to right, #d8d8df, #9a9ada, #c1cbcd);
+}
+
+.coitainer-img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .nike-container {
+} */
+
+
+.nike-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+    transition: 1s;
+}
+
+.nike-img:hover {
+    width: 350px;
+    height: 350px;
+}
+
+
 /* Sobre nosotros */
 
 /* Productos */
