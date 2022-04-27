@@ -491,6 +491,21 @@ body {
         .span-info {
             padding: 20px;
         }
+
+        .coitainer-img {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-h2 {
+            width: 200px;
+        }
+
+        .nike-img {
+            width: 200px;
+            height: 200px;
+        }
         
         /* Sobre Nosotros */
 
