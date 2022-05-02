@@ -113,12 +113,21 @@ body {
     align-items: center;
     margin-top: 20px;
     border-radius: 10px;
+
+    
+
 }
 
 .img3 {
     margin-right: 19px;
     border-radius: 50%;
-}
+    width: 300px;
+    height: 300px;
+    animation-name: efecto2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} 
+
 
 
 .grid {
@@ -348,12 +357,23 @@ body {
 }
 
 .zapas {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin: 20px;
-    
     border-radius: 10px;
     object-fit: cover;
+
+    transition: 0.5s;
+
+    animation-name: efecto;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
+}
+
+.zapas:hover {
+    transform: rotate(-2deg);
+
 }
 
 .grid-contacto {
@@ -534,3 +554,30 @@ body {
 }
 
 /* Responsive */
+
+
+
+@keyframes efecto {
+    from {
+        opacity: 1;
+        
+    }
+
+    to  {
+        opacity: 0;
+        
+    }
+}
+
+@keyframes efecto2 {
+    from {
+        
+        transform: rotate(0deg);
+    
+    }
+
+    to {
+        transform: rotate(360deg);
+        
+    }
+}
