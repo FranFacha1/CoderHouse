@@ -339,6 +339,8 @@ body {
 .nike-img:hover {
     width: 350px;
     height: 350px;
+
+    transform: rotate(2deg);
 }
 
 
