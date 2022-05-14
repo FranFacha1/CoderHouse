@@ -238,6 +238,217 @@ body {
     }
 }
 
+.title {
+    text-align: center;
+    color: #837790;
+
+}
+
+
+// PERSONA 1
+
+.div-flex {
+    display: flex;
+    justify-content: space-around;
+   
+
+    .servicios {
+        // background-color: #9a9ada;
+        height: 100vh;
+        
+    
+        .div-serv {
+            background-color: #fff;
+            min-height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            
+            
+            
+    
+            .div-serv1 {
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                min-height: 150px;
+
+                
+    
+                .pers1 {
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 100%;
+                    margin-top: 20px;
+                    
+                }
+            }
+        }
+
+        .opinion {
+            display: block;
+            text-align: center;
+            padding: 20px;
+            
+            height: 100px;
+        }
+
+        .valoracion {
+
+            .div-valoracion {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                min-height: 100px;
+
+
+                .puntuacion {
+                    display: block;
+                }
+    
+                .cliente {
+                    display: block;
+                }
+            }
+            
+        }
+    }
+
+
+    // PERSONA 2
+    .servicios-2 {
+        // background-color: #9a9ada;
+        height: 100vh;
+        
+    
+        .div-serv-2 {
+            background-color: #fff;
+            min-height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            
+            
+            
+    
+            .div-serv2 {
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                min-height: 150px;
+
+                
+    
+                .pers2 {
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 100%;
+                    margin-top: 20px;
+                    
+                }
+            }
+        }
+
+        .opinion2 {
+            display: block;
+            text-align: center;
+            padding: 20px;
+            
+            height: 100px;
+            
+        }
+
+        .valoracion2 {
+
+            .div-valoracion2 {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                min-height: 100px;
+
+
+                .puntuacion2 {
+                    display: block;
+                }
+    
+                .cliente {
+                    display: block;
+                }
+            }
+            
+        }
+    }
+
+
+    // PERSONA 3
+    .servicios-3 {
+        // background-color: #9a9ada;
+        height: 100vh;
+        
+    
+        .div-serv-3 {
+            background-color: #fff;
+            min-height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            
+            
+            
+    
+            .div-serv3 {
+                margin-top: 40px;
+                display: flex;
+                justify-content: center;
+                min-height: 150px;
+
+                
+    
+                .pers3 {
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    border-radius: 100%;
+                    margin-top: 20px;
+                    
+                }
+            }
+        }
+
+        .opinion3 {
+            display: block;
+            text-align: center;
+            padding: 20px;
+            
+            height: 100px;
+            
+        }
+
+        .valoracion3 {
+
+            .div-valoracion3 {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                min-height: 100px;
+
+
+                .puntuacion3 {
+                    display: block;
+                }
+    
+                .cliente {
+                    display: block;
+                }
+            }
+            
+        }
+    }
+    
+    
+}
+
+
+
 /* Contacto */
 
 /* Crear cuenta */
@@ -452,6 +663,12 @@ body {
     }
     /* Incio */
 
+    // Contacto
+    .div-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -532,6 +749,33 @@ body {
             .contactos{
                 width: 250px;
                 height: 250px;
+            }
+        }
+
+        .div-flex {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+             
+            .servicios {
+                .div-serv {
+                    min-height: 100px;
+                    width: 300px;
+                }
+            }
+
+            .servicios-2 {
+                .div-serv-2 {
+                    min-height: 100px;
+                    width: 300px;
+                }
+            }
+
+            .servicios-3 {
+                .div-serv-3 {
+                    min-height: 100px;
+                    width: 300px;
+                }
             }
         }
         /* Contacto */
