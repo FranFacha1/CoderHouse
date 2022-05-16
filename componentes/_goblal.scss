@@ -1,0 +1,18 @@
+// Mixin
+
+@mixin mapa ($content) {
+    display: flex;
+    justify-content: $content;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+// Extend
+
+.busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+.titulo-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor-form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .boton {
+        margin-top: 20px;
+        background: transparent;
+        border: 3px solid #FFF;
+        border-radius: 5px;
+        color: #FFF;
+        padding: 5px 5px;
+        
+    }
+    
+    .register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+}

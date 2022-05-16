@@ -1,0 +1,95 @@
+.busqueda {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin-top: 20px;
+    
+    @extend .busqueda;
+    
+    .buscar {
+        width: 30%;
+        margin-right: 10px;
+        padding: 5px;
+    }
+
+    .button {
+        padding: 5px;
+    } 
+}
+
+.titulo-productos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    
+    .zapas {
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+        border-radius: 10px;
+        object-fit: cover;
+    
+        transition: 0.5s;
+    
+        animation-name: efecto;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;  
+    }
+    
+    .zapas:hover {
+        transform: rotate(-2deg);
+    
+    }
+}
+
+.grid-contacto {
+    background-color: #F4F4F4;
+    min-height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+
+    .grid-c1 {
+        height: 300px; 
+    }
+    
+    .grid-c2 {
+        height: 300px;
+    }
+    
+    
+    .grid-c3 {
+        height: 300px;
+    }
+    
+    .compu {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .nike-celu {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .nike-zapas {
+        border-radius: 30px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
