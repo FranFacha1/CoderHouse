@@ -19,7 +19,7 @@
 
 .titulo-productos {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .div-img {
@@ -91,5 +91,56 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+}
+
+.container-fotos {
+    // background-color: aquamarine;
+    min-height: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+
+    .publi {
+        text-align: center;
+        padding: 20px;
+        color: #5A5C6C;
+    }
+
+    .contenedor-imgs {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        // background-color: red;
+        
+
+        .imgs {
+            height: 300px;
+            width: 300px;
+            margin-top: 40px;
+            border-radius: 20%;
+
+            .publi-insta {
+                object-fit: cover;
+                height: 300px;
+                width: 300px;
+                border-radius: 10%;
+                
+                transition: 0.6s;
+            }
+
+            .publi-insta:hover {
+                transform: translateX(10px);
+            }
+
+            .texto-publi {
+                text-align: center;
+                margin-top: 10px;
+                
+
+                .color-spann {
+                    color: #5600B9;
+                }
+            }
+        }
     }
 }

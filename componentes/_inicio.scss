@@ -160,7 +160,7 @@
 .spann {
     display: block;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-size: 1.2rem;
     font-weight: 700;
@@ -170,7 +170,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    min-height: 60px;
     background: #303630;
     background-image: linear-gradient(to right, #8d8d99, #babac3, #dbdbe2, #fafaff);
 

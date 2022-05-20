@@ -60,6 +60,16 @@ body {
         align-items: center;
     }
 
+    // Productos
+    .container-fotos {
+       
+        .contenedor-imgs {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
 }
 
 /* Vista menores de 600px */
@@ -118,6 +128,18 @@ body {
             .zapas {
                 width: 300px;
                 height: 300px;
+            }
+        }
+
+        .container-fotos {
+            .publi {
+                font-size: 1.3rem;
+            }
+
+            .contenedor-imgs {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
         }
 
