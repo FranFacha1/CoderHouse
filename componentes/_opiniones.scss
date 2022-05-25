@@ -39,6 +39,7 @@
 }
 
 .title {
+    margin-top: 80px;
     text-align: center;
     color: #837790;
 
@@ -51,7 +52,7 @@
 
     .servicios {
         // background-color: #9a9ada;
-        height: 100vh;
+        
 
 
         .div-serv {
@@ -115,7 +116,7 @@
     // PERSONA 2
     .servicios-2 {
         // background-color: #9a9ada;
-        height: 100vh;
+        
 
 
         .div-serv-2 {
@@ -180,8 +181,7 @@
     // PERSONA 3
     .servicios-3 {
         // background-color: #9a9ada;
-        height: 100vh;
-
+        
 
         .div-serv-3 {
             background-color: #fff;
@@ -242,4 +242,56 @@
     }
 
 
+}
+
+.container-fotos {
+    // background-color: aquamarine;
+    min-height: 50vh;
+    margin: 10px;
+    border-radius: 10px;
+
+    .publi {
+        margin-top: 80px;
+        text-align: center;
+        padding: 20px;
+        color: #5A5C6C;
+    }
+
+    .contenedor-imgs {
+        
+        display: flex;
+        justify-content: space-around;
+        // background-color: red;
+        
+
+        .imgs {
+            height: 300px;
+            width: 300px;
+            margin-top: 40px;
+            border-radius: 20%;
+
+            .publi-insta {
+                object-fit: cover;
+                height: 300px;
+                width: 300px;
+                border-radius: 10%;
+                
+                transition: 0.6s;
+            }
+
+            .publi-insta:hover {
+                transform: translateX(10px);
+            }
+
+            .texto-publi {
+                text-align: center;
+                margin-top: 10px;
+                
+
+                .color-spann {
+                    color: #5600B9;
+                }
+            }
+        }
+    }
 }
