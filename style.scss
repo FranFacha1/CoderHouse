@@ -116,6 +116,19 @@ body {
     }
 
 
+        .descuento {
+            flex-direction: column;
+            min-height: 40vh;
+
+            .texto-desc {
+                text-align: center;
+            }
+
+            .img-desc {
+                height: 250px;
+            }
+        }
+
         /* Productos */
 
         .grid-contacto {
