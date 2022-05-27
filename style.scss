@@ -73,6 +73,16 @@ body {
     .info {
         flex-direction: column;
     }
+    // CREAR Cuenta
+        .section-form {
+            flex-direction: column;
+        }
+
+        .img-form {
+            width: 600px;
+        }
+    
+    
 }
 
 /* Vista menores de 600px */
@@ -226,6 +236,9 @@ body {
             flex-direction: column;
         }
         
+        .titulo-logo {
+            font-size: 1rem;
+        }
 
       
 
@@ -234,10 +247,21 @@ body {
 
         /* Crear Cuenta */
         
-        .titulo-form {
-            font-weight: 400;
-            font-size: 1.5rem;
+        .section-form {
+            flex-direction: column;
+            
+
+            .contenedor-form {
+                width: 90vw;
+            }
+
+            .img-form {
+                width: 90vw;
+            }
         }
+        
+
+        
         /* Crear Cuenta */
 
 

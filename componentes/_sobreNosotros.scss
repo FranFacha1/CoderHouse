@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .container-info {
     min-height: 100vh;
 
@@ -30,7 +34,8 @@
        .link-info {
            text-decoration: none;
            color: #fafafa;
-       }
+           scroll-behavior: smooth;
+        }
     }   
 }
 
@@ -47,5 +52,24 @@
     .spann-info {
         margin-left: 20px;
         font-weight: bold;
+    }
+}
+
+.titulo-logo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.contenedor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    .logos-nike {
+        height: 200px;
+        object-fit: contain;
     }
 }

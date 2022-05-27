@@ -11,76 +11,82 @@
     <title>Cree Cuenta y unete a la comunidad</title>
 </head>
 <body>
-    <header class="header">
-        <div class="img">
-            <img class="icono" src="imagenes/icono-nike.jpg" alt="Incono nike">
-        </div>
-        <nav class="nav">
-            <ul class="ul">
-                <li class="li"><a class="link"href="index.html">Incio</a></li>
-                <li class="li"><a class="link" href="Opiniones.html">Opiniones</a></li>
-                <li class="li"><a class="link" href="Productos.html">Productos</a></li>
-                <li class="li"><a class="link" href="Sobrenosotros.html">Sobre Nosotros</a></li>
-                <li class="li"><a class="link" href="Crearcuenta.html">Crear Cuenta</a></li>
-            </ul>  
-        </nav>
-           
-    </header>
-    <div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="img">
+                <img class="icono" src="imagenes/icono-nike.jpg" alt="Incono nike">
+            </div>
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="li"><a class="link"href="index.html">Incio</a></li>
+                    <li class="li"><a class="link" href="Opiniones.html">Opiniones</a></li>
+                    <li class="li"><a class="link" href="Productos.html">Productos</a></li>
+                    <li class="li"><a class="link" href="Sobrenosotros.html">Sobre Nosotros</a></li>
+                    <li class="li"><a class="link" href="Crearcuenta.html">Crear Cuenta</a></li>
+                </ul>  
+            </nav>
+        </header>
+        <main class="main">
+            <h1 class="titulo-form">Cree una cuenta y unase a nuestra comunidad</h1>
+            <section class="section-form">
+                <form action="">
+                    <div class="contenedor-form">
+                        <div>
+                            <label for="Nombre"></label>
+                            <h2 class="texto-input">Nombre</h2>
+                            <input class="input" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" autocomplete="off">
+                        </div>
         
-    </div>
-    <main class="main">
-
-        <h1 class="titulo-form">Cree una cuenta y unase a nuestra comunidad</h1>
-
-        <section>
-            <form action="">
-                <div class="contenedor-form">
-                    <div>
-                        <label for="Nombre"></label>
-                        <input class="input" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" autocomplete="off">
-                    </div>
+                        <div>
+                            <h2 class="texto-input">Apellido</h2>
+                            <label for="Apellido"></label>
+                            <input class="input" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" autocomplete="off">
+                        </div>
+        
+                      
+        
+                        <div>
+                            <h2 class="texto-input">Gmail</h2>
+                            <label for="Gmail"></label>
+                            <input class="input" type="email" name="Gmail" id="Gmail" placeholder="Ingrese su Gmail" autocomplete="off">
+                        </div>
+        
+                        
+        
+                        <div>
+                            <h2 class="texto-input">Contraseña</h2>
+                            <label for="Contraseña"></label>
+                            <input class="input" type="password" name="Constraseña" id="Contraseña" placeholder="Ingrese una Contraseña" autocomplete="off">
+                        </div>
     
-                    <br>
-    
-                    <div>
-                        <label for="Apellido"></label>
-                        <input class="input" type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" autocomplete="off">
-                    </div>
-    
-                    <br>
-    
-                    <div>
-                        <label for="Gmail"></label>
-                        <input class="input" type="email" name="Gmail" id="Gmail" placeholder="Ingrese su Gmail" autocomplete="off">
-                    </div>
-    
-                    <br>
-    
-                    <div>
-                        <label for="Contraseña"></label>
-                        <input class="input" type="password" name="Constraseña" id="Contraseña" placeholder="Ingrese una Contraseña" autocomplete="off">
                     </div>
                     
+                    <div class="boton-contenedor">
+                        <button class="boton-enviar">Enviar</button>    
+                    </div>
+                    
+
+                </form>
     
-                    <button class="boton">Enviar</button>
-                </div>
+                <img class="img-form" src="https://www.modaes.es/files//000_2016/nike/nike-argentina-tienda-interior-728.jpg" alt="negocio-nike">
 
-            </form>
-        </section>
-
-  
-
-    </main>
-
-    <footer>
-        <span class="spann">¡Nuestras redes sociales!</span>
-        <div class="footer">
-            <a class="link-footer" href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank">Facebook</a>
-            <a class="link-footer" href="https://twitter.com/home" target="_blank">Twitter</a>
-            <a class="link-footer" href="https://www.instagram.com/" target="_blank">Instagram</a>
-        </div>
+                
+            </section>
         
-    </footer>
+
+        
+      
+    
+        </main>
+        <footer>
+            <span class="spann">¡Nuestras redes sociales!</span>
+            <div class="footer">
+                <a class="link-footer" href="https://es-la.facebook.com/login/device-based/regular/login/" target="_blank">Facebook</a>
+                <a class="link-footer" href="https://twitter.com/home" target="_blank">Twitter</a>
+                <a class="link-footer" href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+            
+        </footer>
+    </div>
 </body>
 </html>

@@ -3,28 +3,68 @@
     margin-top: 30px;
 }
 
-.contenedor-form {
-    height: 100vh;
+.section-form {
+    // background-color: aquamarine;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-
-    .boton {
-        margin-top: 20px;
-        background: transparent;
-        border: 3px solid #FFF;
-        border-radius: 5px;
-        color: #FFF;
-        padding: 5px 5px;
-        
-    }
+    flex-grow: 1;
     
-    .register {
+    
+    .contenedor-form {
+        
+        width: 500px;
+
+        .texto-input {
+            font-size: 1rem;
+            margin: 30px 0 5px 0;
+        }
+
+        .input {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            outline: none;
+
+            transition: 0.2s;
+        }
+
+        .input:focus{
+            border: 1.5px solid #5600B9;
+        }
+    }
+
+
+    
+    .boton-contenedor{
         display: flex;
         justify-content: center;
-        align-items: center;
-        font-weight: 700;
-        font-size: 1.3rem;
+        width: 100%;
+        margin: 30px 0;
+        .boton-enviar {
+            width: 100%;
+            padding: 10px 0;
+            color: #5600B9;
+            background-color: transparent;
+            border: 1px solid #5600B9;
+            border-radius: 50px;
+            text-align: center;
+            
+            transition: 0.2s;
+        }
+
+        .boton-enviar:hover{
+            color: #ffffff;
+            background-color:#5600B9 ;
+        }
     }
+        
+    
+}
+
+.img-form {
+    border-radius: 20px;
 }
