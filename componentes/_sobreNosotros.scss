@@ -1,53 +1,51 @@
-.contenedor-info {
-    .Bienvenidos {
-        text-align: center;
-        margin-top: 30px;
-    }
+.container-info {
+    min-height: 100vh;
 
-    .span-info {
-        display: block;
-        text-align: center;
-        margin-bottom: 40px;
-    }
+    .info {
+        margin: 20px;
+        height: 500px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #F3F2EF;
+        border-radius: 10px;
+
+
+       .img-info {
+        height: 160px;
+        border-radius: 10px;
+       }
     
-    .h2-productos {
-        text-align: center;
-        margin: 40px;
-    }
+       .informacion1 {
+        text-decoration: none;
+        color: #fafafa;
+        background-color: #000000;
+        border-radius: 10px;
+        text-transform: uppercase;
+        height: 80px;
+        width: 120px;
+        
+       }
+
+       .link-info {
+           text-decoration: none;
+           color: #fafafa;
+       }
+    }   
 }
 
-.container-h2 {
+.informacion {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    font-size: 1.6rem;
-    height: 100px;
-    width: 500px;
-    border-radius: 20px;
-    
-    background-image: linear-gradient(to right, #d8d8df, #9a9ada, #c1cbcd);
-}
+    margin: 20px;
+    background-color: #F0E6C7;
+    min-height: 300px;
+    border-radius: 10px;
 
-.coitainer-img {
-    display: flex;
-    justify-content: space-evenly;
-
-    .nike-img {
-        width: 300px;
-        height: 300px;
-        margin-top: 30px;
-        border-radius: 30px;
-    
-        transition: 1s;
-    }
-    
-    .nike-img:hover {
-        width: 350px;
-        height: 350px;
-    
-        transform: rotate(2deg);
+    .spann-info {
+        margin-left: 20px;
+        font-weight: bold;
     }
 }

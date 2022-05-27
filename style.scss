@@ -70,6 +70,9 @@ body {
         }
     }
 
+    .info {
+        flex-direction: column;
+    }
 }
 
 /* Vista menores de 600px */
@@ -208,26 +211,21 @@ body {
         
         /* Sobre Nosotros */
         
-        .contenedor-info {
-            .span-info {
-                padding: 20px;
+        .container-info {
+            
+            .info {
+                flex-direction: column;
+    
+                .img-info {
+                    height: 100px;
+                }
             }
+        }
+
+        .informacion {
+            flex-direction: column;
         }
         
-        .container-h2 {
-            width: 200px;
-        }
-
-        .coitainer-img {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            .nike-img {
-                width: 200px;
-                height: 200px;
-            }
-        }
 
       
 
